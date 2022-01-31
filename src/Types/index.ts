@@ -10,8 +10,16 @@ export interface ProductItems {
   imageUrl: string;
 }
 
-export interface Product {
+export interface ProductInterface {
   id: number;
   imageUrl: string;
   productList: ProductItems[];
+}
+
+export interface TitleInterface {
+  title: string;
+  tags: string[];
+  locker: number;
+  comments: number;
+  date: string;
 }

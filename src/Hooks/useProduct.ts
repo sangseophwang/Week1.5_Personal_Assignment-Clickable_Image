@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
-import { Product } from "Types";
+import { ProductInterface } from "Types";
 import { getAPI } from "API";
 
 export default function useProduct() {
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<boolean>(false);
-  const [product, setProduct] = useState<Product>({
+  const [product, setProduct] = useState<ProductInterface>({
     id: 0,
     imageUrl: "",
     productList: [],
