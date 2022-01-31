@@ -56,8 +56,8 @@ const Title = styled.h3`
   color: white;
   font-size: 16px;
   margin: 0 16px;
-  font-weight: 600;
-  letter-spacing: 1px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
 `;
 
 const CloseButton = styled.div`
