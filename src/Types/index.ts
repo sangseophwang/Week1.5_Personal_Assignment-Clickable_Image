@@ -1,4 +1,4 @@
-export interface ProductItems {
+export interface productList {
   productId: number;
   productName: string;
   outside: boolean;
@@ -13,7 +13,7 @@ export interface ProductItems {
 export interface ProductInterface {
   id: number;
   imageUrl: string;
-  productList: ProductItems[];
+  productList: productList[];
 }
 
 export interface TitleInterface {
@@ -22,4 +22,10 @@ export interface TitleInterface {
   locker: number;
   comments: number;
   date: string;
+}
+
+export interface ImageListProps {
+  productList: productList[];
+  onSelectImage: (id: number | null) => void;
+  selectedImage: number | null;
 }
