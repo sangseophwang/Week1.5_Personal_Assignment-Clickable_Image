@@ -5,7 +5,7 @@ import { getAPI } from "API";
 export default function useProduct() {
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<boolean>(false);
-  const [product, setProduct] = useState<ProductInterface>({
+  const [data, setData] = useState<ProductInterface>({
     id: 0,
     imageUrl: "",
     productList: [],
@@ -16,7 +16,7 @@ export default function useProduct() {
       try {
         setLoading(true);
         const data = await getAPI();
-        setProduct(data);
+        setData(data);
       } catch (event) {
         setError(true);
       } finally {
@@ -27,7 +27,7 @@ export default function useProduct() {
   }, []);
 
   return {
-    product,
+    data,
     loading,
     error,
   };
