@@ -44,6 +44,9 @@ const Container = styled.nav`
   width: 100%;
   height: 80px;
   position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 99;
   display: flex;
   justify-content: center;
   box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 12px 0px;
