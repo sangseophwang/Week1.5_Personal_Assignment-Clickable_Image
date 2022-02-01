@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import EventBar from "Components/Common/EventBar";
 import NavigationBar from "Components/Common/NavigationBar";
 import Main from "Components/Main";
