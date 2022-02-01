@@ -5,6 +5,7 @@ const GlobalStyles = createGlobalStyle`
   ${reset};
   body {
         font-family: "Spoqa Han Sans Neo", "sans-serif";
+        overflow-x: hidden;
       }
 `;
 
