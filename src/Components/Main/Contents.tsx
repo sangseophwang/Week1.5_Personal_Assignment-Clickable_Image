@@ -17,7 +17,11 @@ export default function Contents({ data }: ProductProps) {
   return (
     <Container>
       <ImageWrapper>
-        <MainImage src={imageUrl} alt="메인 이미지" />
+        <MainImage
+          src={imageUrl}
+          alt="메인 이미지"
+          onClick={() => onSelectImage(null)}
+        />
         <ImagePointList
           productList={productList}
           selectedImage={selected}
