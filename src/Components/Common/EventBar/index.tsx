@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styled from "styled-components";
 import Coupon from "Assets/Coupon.png";
-import CloseIcon from "Assets/CloseIcon_White.png";
+import CloseIcon from "Assets/Icons/CloseIcon_White.png";
 
 export default function EventBar() {
   const [close, setClose] = useState<boolean>(false);

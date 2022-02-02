@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import LogoImage from "Assets/Logo.png";
-import Search from "Assets/SearchIcon.png";
-import Cart from "Assets/CartIcon.png";
+import Search from "Assets/Icons/SearchIcon.png";
+import Cart from "Assets/Icons/CartIcon.png";
 
 export default function NavigationBar() {
   return (
