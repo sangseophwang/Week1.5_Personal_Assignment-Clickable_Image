@@ -1,6 +1,6 @@
 import { ImageListProps } from "Types";
 import styled, { css } from "styled-components";
-import DiscountIcon from "Assets/DiscountIcon.png";
+import DiscountIcon from "Assets/Icons/DiscountIcon.png";
 
 export default function SubImageList({
   productList,

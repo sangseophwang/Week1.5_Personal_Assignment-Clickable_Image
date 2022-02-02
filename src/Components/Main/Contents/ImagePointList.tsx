@@ -1,8 +1,8 @@
 import { ImageListProps } from "Types";
-import ToolTip from "Components/Main/ToolTip";
+import ToolTip from "Components/Main/Contents/ToolTip";
 import styled from "styled-components";
-import PointIcon from "Assets/PointIcon.png";
-import CloseIcon from "Assets/CloseIcon_Red.png";
+import PointIcon from "Assets/Icons/PointIcon.png";
+import CloseIcon from "Assets/Icons/CloseIcon_Red.png";
 
 export default function ImagePointList({
   productList,

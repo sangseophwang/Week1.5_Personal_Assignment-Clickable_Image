@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { ProductInterface } from "Types";
 import styled from "styled-components";
-import ImagePointList from "Components/Main/ImagePointList";
-import SubImageList from "Components/Main/SubImageList";
+import ImagePointList from "Components/Main/Contents/ImagePointList";
+import SubImageList from "Components/Main/Contents/SubImageList";
 
 interface ProductProps {
   data: ProductInterface;
