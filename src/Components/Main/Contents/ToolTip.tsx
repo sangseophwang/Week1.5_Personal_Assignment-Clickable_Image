@@ -14,8 +14,11 @@ export default function ToolTip({
   pointY,
   discountRate,
 }: productList) {
-  const isRightSide = pointY * 1.58 + 11 > 400;
-  const isBottomSide = pointX * 1.6 > 500;
+  const imageHeight: number = 500;
+  const imageWidth: number = 400;
+
+  const isRightSide = pointY * 1.58 + 11 > imageWidth;
+  const isBottomSide = pointX * 1.6 > imageHeight;
 
   return (
     <Container isRightSide={isRightSide} isBottomSide={isBottomSide}>
